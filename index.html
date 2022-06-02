@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ADA API Caller</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="scripts/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="appTitle">ADA API Caller</h1>
+        </header>
+        <form id="operationForm">
+            <label>Choose an operation:</label>
+            <select name="operations" id="operations">
+                <option value="getLastKnown">Get Last Known Data</option>
+                <option value="vinDetails">Get Vin Details</option>
+            </select>
+        </form>
+        <button id="enterBtn">Enter</button>
+        <div id="result"></div>
+    </body>
+</html>
