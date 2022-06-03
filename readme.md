@@ -3,7 +3,7 @@
 ## Description
 A Simple application that runs on your browser which retrieves data from the ADA API. Mostly used to familiarize with syntax for sending requests, but has the possibility for scaling to actually be useful.
 
-##To run
+## To run
 1. Find your Bearer token and paste it into the bearerToken variable in script.js. 
 2. Within the project directory, execute 'npm run build' in the terminal. Then, open index.html in your browser. 
 Note: You'll need to re-execute npm run build each time you make changes, in order to see them compiled correctly in the browser. 
