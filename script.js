@@ -1,7 +1,7 @@
 var axios = require('axios');
 
 // paste your Bearer token here, format 'Bearer {token}'
-const bearerToken = '';
+const bearerToken = 'Bearer ';
 // ------------------------------
 
 const adaBaseUrl = 'https://api.dev.alldataapp.com';

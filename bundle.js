@@ -4387,7 +4387,10 @@ process.umask = function() { return 0; };
 },{}],37:[function(require,module,exports){
 var axios = require('axios');
 
-const bearerToken = 'Bearer eyJraWQiOiJaYmJJZXZIQ3F4RmdhV0Rva2RVQ1ZUTUhcL1N3U1dMaHlpR0hwdnJzVGdiMD0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMWMxNDVhYi03ZTVhLTQwMGYtYjg5Ny05MmIzMWMyMGM5MDAiLCJjb2duaXRvOmdyb3VwcyI6WyJ1cy1lYXN0LTJfeWc3cXp6S3pUX0dvb2dsZSIsImFkbWluLWV1IiwiYWRtaW4tbmEiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfeWc3cXp6S3pUIiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiM2Y2cGw4b3V0N2tmamRncTFobmIxMzJrbDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIG9wZW5pZCBwcm9maWxlIGVtYWlsIiwiYXV0aF90aW1lIjoxNjU0MjcxMDE0LCJleHAiOjE2NTQzNTc0MTQsImlhdCI6MTY1NDI3MTAxNCwianRpIjoiMTM2NDBhOGItNmZmYS00MDE3LWE4MDEtNzI0NjAyZTkxOGZjIiwidXNlcm5hbWUiOiJHb29nbGVfMTA0OTQyMTc3ODMzOTU1NzAyMjg4In0.ThKuibZPupnHrKtWNife7fJuW4yDDo2lyoGrVgCHl42aLH2F6QdiKT7yaMOxY_2MXNPy5PfFWC72aQBMKoBT0tikXt-KuLO01SZSuIxYuOShwDZsKKofXY02IjG-L1bN3rWqzC5se7tGg-jgbXIbvOBriKt04s5x2KKQQeZP6wpZ4PT5-HrNzuRXBUTK3NPS5VNHGLgd7x_ffj-C3LynTa70isZbUzbk8IHjFAY-8PmCYePKPARpnGtsCeJOLGMmzsxhcCYPycW0aGl42CrMoGd9VxQnMJPXnKyEBgzQI-p7ENVoejXi7Peg_MfAMjMolJ80JO5u4pem9hvb3GuwVQ';
+// paste your Bearer token here, format 'Bearer {token}'
+const bearerToken = 'Bearer ';
+// ------------------------------
+
 const adaBaseUrl = 'https://api.dev.alldataapp.com';
 const vin = "1C4SDJET7KC500079";
 const enterBtn = document.getElementById('enterBtn');
