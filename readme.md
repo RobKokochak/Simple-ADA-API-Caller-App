@@ -10,6 +10,7 @@ Note: You'll need to re-execute npm run build each time you make changes, in ord
 
 ## Things to do
 - Prompt the user at startup to enter their bearer token and save it (so bearer token doesn't need to be hard-coded)
+- Prompt the user at startup to enter a vehicle's vin, so that doesn't need to be hard-coded (right now it's just a default test vin)
 - Make it so the old data get's erased when you submit a new request
 - Make the displayed data easier to read and/or filter the results** (Andrew said this would be tricky)
 - Add more request options
